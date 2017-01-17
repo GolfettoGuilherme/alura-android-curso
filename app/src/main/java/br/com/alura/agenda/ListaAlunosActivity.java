@@ -22,6 +22,7 @@ import br.com.alura.agenda.adapter.AlunosAdapter;
 import br.com.alura.agenda.converter.AlunoConverter;
 import br.com.alura.agenda.dao.AlunoDAO;
 import br.com.alura.agenda.modelo.Aluno;
+import br.com.alura.agenda.modelo.Prova;
 
 public class ListaAlunosActivity extends AppCompatActivity {
 
