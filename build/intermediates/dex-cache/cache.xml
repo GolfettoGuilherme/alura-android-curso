@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_0fef41143c7abfe5d46c92e9e0c64fa7e5ed918b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Guilherme\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -21,12 +12,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_8886f981e96a0d5f37a75a1d21b7ba0eca908eda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="2a03af8b73fb78cedb8e4caa2aebff4e52139536">
         <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fbdd1a16bb3bfbd7df9f44bed6d88b102a704703\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_cb8ef90bc2d00965434854046fc3de64e392e8e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_9edd073ae212547296954e28feac8e2ff5d3ba01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_c983551b7e5f91f1894827c8d3da5b82a58186f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_8deb77d03753fca3ccbd6d8885a7531ef9c98a8c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -45,24 +81,6 @@
         revision="23.0.2"
         sha1="850784cf09e38931f6ed4e060bce725b4d228dbe">
         <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_02f978028830387cff6c3ebb7b6c1bf3e375abb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_d5d81542e87772f0c417503c4e204668d6b1b332\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\Guilherme\Documents\programacao\projetos\android-alura-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_35644a912f55449dda7e443e1d7d355d6f37a14e\classes.dex" />
     </item>
 
 </items>

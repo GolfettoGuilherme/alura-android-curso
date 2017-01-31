@@ -25,11 +25,45 @@ public class ProvasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_provas);
 
         FragmentManager fragmentManager =  getSupportFragmentManager();
+        //inicia uma transação
         FragmentTransaction tx = fragmentManager.beginTransaction();
+        //altera a classe responsavel pelo frame para a listaProvasFragment
 
         tx.replace(R.id.frame_principal, new ListaProvasFragment());
 
+        if(estaNoModoPaisagem()){
+            tx.replace(R.id.frame_secundario, new DetalhesProvaFragment());
+        }
+
+        //executa
         tx.commit();
+
+    }
+
+    private boolean estaNoModoPaisagem() {
+        return getResources().getBoolean(R.bool.modoPaisagem);
+    }
+
+    public void SelecionaProva(Prova prova) {
+        FragmentManager manager = getSupportFragmentManager();
+        if(!estaNoModoPaisagem()){
+            FragmentTransaction tx = manager.beginTransaction();
+
+            DetalhesProvaFragment detalhesProvaFragment = new DetalhesProvaFragment();
+            Bundle parametros = new Bundle(); //caixinha para enviar classes
+            parametros.putSerializable("prova", prova);
+            detalhesProvaFragment.setArguments(parametros);
+
+            tx.replace(R.id.frame_principal, detalhesProvaFragment);
+
+            tx.addToBackStack(null); //ajeita o botão de voltar
+
+            tx.commit();
+        } else{
+            DetalhesProvaFragment detalhesFragment = (DetalhesProvaFragment) manager.findFragmentById(R.id.frame_secundario);
+
+            detalhesFragment.populaCamposCom(prova);
+        }
 
     }
 }
