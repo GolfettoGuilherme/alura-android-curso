@@ -76,7 +76,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_lista_alunos, menu);
-
         return true;
     }
 
@@ -89,6 +88,10 @@ public class ListaAlunosActivity extends AppCompatActivity {
             case R.id.menu_baixar_provas:
                 Intent vaiParaProvas = new Intent(this, ProvasActivity.class);
                 startActivity(vaiParaProvas);
+                break;
+            case R.id.menu_mapa:
+                Intent vaiParaMapa =  new Intent(this, MapaActivity.class);
+                startActivity(vaiParaMapa);
                 break;
         }
         return super.onOptionsItemSelected(item);
